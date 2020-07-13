@@ -1,0 +1,39 @@
+.navbar{
+	border-radius: 0;
+}
+
+/* https://www.freemysqlhosting.net/account/ */
+
+#command-container{
+	width: 600px;
+	
+}
+
+#commandInputGroup{
+	display: flex;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+#commandInputGroup > input{
+	border-right: none;
+	display: inline-block; 
+}
+
+#commandInputGroup > button {
+	border-left: none;
+	margin-left: -10px;
+	display: inline-block;
+}
+
+#robotImageContainer{
+	width: 150px;
+	margin-bottom: 30px;
+}
+
+#robotImageContainer > img{
+	max-width: 150px;
+    margin-left: 20px;
+}
