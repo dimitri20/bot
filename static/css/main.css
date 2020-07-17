@@ -6,7 +6,7 @@
 
 #command-container{
 	width: 600px;
-	
+
 }
 
 #commandInputGroup{
@@ -17,14 +17,14 @@
 	margin: 0 auto;
 }
 
-#commandInputGroup > input{
+#commandInputGroup > input[type=text]{
 	border-right: none;
-	display: inline-block; 
+	display: inline-block;
 }
 
-#commandInputGroup > button {
+#commandInputGroup > input[type=submit] {
 	border-left: none;
-	margin-left: -10px;
+	margin-left: -20px;
 	display: inline-block;
 }
 
